@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:600" rel="stylesheet">
+    <title>Waveforms</title>
+</head>
+<body>
+    <div class="keys">
+       <ul class="upper">
+            <li><img class="" id="w" src="images/key.svg"></li>
+            <li><img class="" id="e" src="images/key.svg"></li>
+            <li><img class="gap" src="images/key.svg"></li>
+            <li><img class="" id="t" src="images/key.svg"></li>
+            <li><img class="" id="y" src="images/key.svg"></li>
+            <li><img class="" id="u" src="images/key.svg"></li>
+            <li><img class="gap" src="images/key.svg"></li>
+            <li><img class="" id="o" src="images/key.svg"></li>
+            <li><img class="" id="p" src="images/key.svg"></li>
+       </ul>
+       <ul class="lower">
+            <li><img class="" id="a" src="images/key.svg"></li>
+            <li><img class="" id="s" src="images/key.svg"></li>
+            <li><img class="" id="d" src="images/key.svg"></li>
+            <li><img class="" id="f" src="images/key.svg"></li>
+            <li><img class="" id="g" src="images/key.svg"></li>
+            <li><img class="" id="h" src="images/key.svg"></li>
+            <li><img class="" id="j" src="images/key.svg"></li>
+            <li><img class="" id="k" src="images/key.svg"></li>
+            <li><img class="" id="l" src="images/key.svg"></li>
+            <li><img class="" id="semicolon" src="images/key.svg"></li>
+            <li><img class="" id="apost" src="images/key.svg"></li>
+      </ul>
+    </div>
+    <div class="waves">
+        <ul>
+            <li>
+                <img class="shape" id="square" src="images/square.svg">
+                <img class="fade-in select active" id="squared" src="images/select.svg">
+            </li>
+            <li>
+                <img class="shape" id="triangle" src="images/triangle.svg">
+                <img class="fade-in select" id="triangled" src="images/select.svg">
+            </li>
+            <li>
+                <img class="shape" id="saw" src="images/saw.svg">
+                <img class="fade-in select" id="sawed" src="images/select.svg">
+                <div id="circle"></div>
+            </li>
+            <li>
+                <img class="shape" id="sine" src="images/sin.svg">
+                <img class="fade-in select" id="sined" src="images/select.svg">
+            </li>
+            <li class="arp">
+                <img class="arp-image" id="off" src="images/arp-off.svg">
+                <img class="arp-image hide" id="on" src="images/arp-on.svg">
+            </li>
+        </ul> 
+    </div>
+    <div id="info">
+        <img src="images/info.svg">
+        <h1 id="information" class="hide">Select a waveform. Tap or type to play notes. Select the dot stack to activate the arpeggiator.</h1>
+    </div>
+    <script src="tones.js"></script>
+    <script src="waves.js"></script>
+</body>
+</html>
